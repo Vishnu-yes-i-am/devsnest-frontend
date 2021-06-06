@@ -1,0 +1,60 @@
+body{margin-top: 250px;
+    margin-left: 350px;
+
+}
+.circle1 {
+    border-radius: 50%;border-width: 7px;border-style: solid; border-color: lightgrey; background-color: red;width: 600px;height: 600px;
+
+}
+.circle2 {
+    border-radius: 50%;border-style: solid;border-width: 5px; width: 450px;height: 450px; border-color: lightgrey; position: absolute;margin-left: 75px;margin-top: 75px; background-color: white; 
+}
+.needle1{border-left: black;
+    border-style: solid;
+    width: 200px; 
+    margin-left:225px ;
+     margin-top: 225px;
+     animation-name: ndl1;
+     animation-duration:6s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     transform-origin: 0 0;}
+@keyframes ndl1{
+from{transform: rotate(0deg)}
+to{transform : rotate(360deg);}
+
+}
+.needle2{border-left: black;
+    border-style: solid;
+    width: 180px; 
+     margin-left:225px ;
+     height: 5px;
+     margin-top: -9px;
+     animation-name: ndl2;
+     animation-duration:36s;
+     background-color: black;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     transform-origin: 0px 2.5px;}
+@keyframes ndl2{
+from{transform: rotate(0deg)}
+to{transform : rotate(360deg);}
+
+}
+.needle3{border-left: black;
+    border-style: solid;
+    width: 160px; 
+     margin-left:225px ;
+     margin-top: -11px;
+     height: 8px;
+     background-color: black;
+     animation-name: ndl3;
+     animation-duration:216s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     transform-origin: 0px 4px;}
+@keyframes ndl3{
+from{transform: rotate(0deg)}
+to{transform : rotate(360deg);}
+
+}
