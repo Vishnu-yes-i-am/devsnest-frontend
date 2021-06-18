@@ -5,7 +5,8 @@
         .key{
             width: 60px;
             height: 60px;
-            
+            position: relative;
+            display: flex;
             border-radius: 10px;
             background-color: cadetblue;
             display: inline-block;
@@ -18,20 +19,34 @@
             cursor: pointer;
         }
          .key:active{
-              background-color: rgb(35, 60, 61);
+              /* background-color: rgb(35, 60, 61); */
+              width: 57px;
+              height:57px;
             }
+        .key:hover{
+            box-shadow: 0px 0px 20px black;
+        }
         
         #display{
             background-color: blanchedalmond;
-            width: 274px;
+            width: 256px;
             height: 50px;
-            
-            overflow: hidden;
+            overflow: hidden ;
             border: solid grey;
             font-size:xx-large;
             text-align: right;
             margin: 2px;
         }
+        .box{
+        padding: 5px;
+        border-width: 3px;
+        border-radius: 9px;
+        box-shadow: 2px  2px 25px black;
+        position: relative;;
+        width: fit-content;
+        background-color: rgb(233, 158, 97);
+        position: relative;
+        left: 500px;top: 200px;}
     </style>
     
     <script>
@@ -111,8 +126,8 @@
     </script>  
     <title>Calculator</title>
 </head>
-<body style="background-color: rgb(12, 34, 71);">
-    <div style="padding: 8px; border: groove grey; border-width: 3px;border-radius: 9px; width: fit-content;background-color: cornflowerblue; position: relative;left: 300px;top: 200px;">
+<body style="background-color: rgb(70, 194, 167);">
+    <div class="box">
         <br>
     <div id="display">0</div>
     <div style="font-size: 30px; text-align: center;">lallan top</div>
