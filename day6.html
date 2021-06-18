@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+    function qno1(){
+        console.clear();
+    console.log(Array.isArray('w3resource'));
+    console.log((Array.isArray([1, 2, 4, 0])));
+    console.log((Array.isArray(1234)));
+    }
+    function qno2(){
+        var array1=[1,2,3,4,5];
+        var array2=[];
+        array2=array1.slice();
+        console.clear();
+        console.log("array2 is now "+"["+array2+"]");
+        
+    }
+    function qno3(obj){
+        var array3=[12,3,-4,7,8,21,53,102,6,-3,-823,0,54,-33,-1,9,82,94,4];
+        n=parseInt(obj);
+        console.clear();
+        console.log(array3.slice(0,n));
+    }
+    function qno4(){
+        var myColor = ["Red", "Green", "White", "Black"];
+        console.clear();
+        console.log(myColor.join(""));
+        console.log(myColor.join("+"));
+        console.log(myColor.join(","));
+    }
+    function qno5(){
+        var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+        // arr1.sort()
+        count=1;
+        val="";
+        count1=1;
+        console.log(arr1.sort())
+        for (let i = 1; i < arr1.length; i++) {
+            if (arr1[i]==arr1[i-1]){
+                count+=1;
+            }
+            else{
+                count=1;
+            }
+            if(count>count1){
+                count1=count;
+                val=arr1[i];
+            }  
+             
+        }
+        console.clear();
+        console.log(val,count1+" times"); 
+    }
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>OPEN CONSOLE.ALL SOlUTIONS WILL BE SHOWN THERE.</h1>
+    <h2>Qno 1.Write a JavaScript function to check whether an input is an array or not. <br> Inputs are 'w3resource'  ,  [1, 2, 4, 0]   , 1234 </h2>
+    <h3>For solution of qno1 click on the button below  </h2>
+    <button onclick="qno1()">Click Me!</button>
+    <h2>Qno2.Write a JavaScript function to clone an array <br> array1=[1,2,3,4,5] and array2=[] after copying array 1 to  array2:-
+    </h2>
+    <h3>For solution of qno2 click on the button below </h3>
+    <button onclick="qno2()">Click Me!</button>
+    <h2>Qno3.Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array. <br>array is [12,3,-4,7,8,21,53,102,6,-3,-823,0,54,-33,-1,9,82,94,4]
+    </h2>
+    <h3>enter value of n and press submit button below</h3>
+    <input id="qno3" type="text">
+    <button onclick="qno3(document.getElementById('qno3').value)">submit</button>
+    <h3>Qno4.Write a simple JavaScript program to join all elements of the following array into a string.
+        Sample array : myColor = ["Red", "Green", "White", "Black"];
+        </h3>
+        <h3>For solution of qno4 click on the button below  </h2>
+            <button onclick="qno4()">Click Me!</button>
+    <h3>Qno5. Write a JavaScript program to find the most frequent item of an array
+        Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+        </h3>
+        <h3>For solution of qno5 click on the button below  </h2>
+            <button onclick="qno5()">Click Me!</button>
+
+</body>
+</html>
