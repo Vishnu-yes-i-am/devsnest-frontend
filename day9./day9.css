@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+}
+.seat {
+    width:150px;
+    height: 100px;
+    border-radius: 10px;
+    display:inline-block;
+    background-color: green;
+}
+.seat3 {
+    width:150px;
+    height: 100px;
+    border-radius: 10px;
+    display:inline-block;
+    background-color: green;
+}
+.seat,.seat2:hover{
+    opacity: 0.8;
+} 
+.seat2 {
+    width:150px;
+    border-radius: 10px;
+    height: 100px;
+    display:inline-block;
+    background-color: red;
+}
+.seats{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.status{
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    color: chocolate;
+}
