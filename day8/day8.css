@@ -1,0 +1,30 @@
+body{
+    background-color: darkkhaki;
+}
+.container{
+    margin: auto;
+    margin-top: 200px;
+    width: 372px;
+    height: 384px;
+    border: solid black;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: bisque;
+}
+.pixel.change{
+    background-color: white;
+    border:solid white;
+    border-width: 1px;
+}
+.pixel{
+    width: 10px;
+    height: 10px;
+    border: solid rgb(190, 20, 20);
+    border-width: 1px;
+    background-color: red;
+}
+.head{
+    font-size: 36px;
+    color: chartreuse;
+    text-align: center;
+}
