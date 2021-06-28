@@ -1,0 +1,87 @@
+.head{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+.optionno.clicked{
+    background-color: rgb(12, 201, 12);
+}
+.quespage{
+    border-radius: 8px;
+    width:70%;
+    height:auto;
+    border: double rgb(75, 75, 187);
+    background-color:cornsilk;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 340px;
+}
+.ques{
+    margin: auto;
+    width: 96%;
+    padding: 2%;
+    font-size: x-large;
+    background-color: rgb(226, 216, 216);
+}
+.options{
+    padding: 2%;
+    width: 96%;
+    height:auto;
+    display:flex
+
+}
+.optionno{
+    width: 25px;
+    height:25px;
+    text-align: center;
+    display: inline-block;
+    border:solid black;
+    border-radius: 50%;
+}
+.optionvalue{
+    padding-left: 2%;
+    display: inline-block;
+    font-size: x-large;
+    word-wrap: normal;
+}
+.command{
+    overflow: hidden;
+    width: 100%;
+}
+.previous{
+    margin:2%;
+    display: inline-block;
+    width: auto;
+    color:skyblue;
+    font-size: xx-large;
+    width: auto;
+    padding: 10px;
+    max-height:50px;
+    border: groove rgb(105, 203, 241);
+    position: relative;
+    background-color: rgb(59, 51, 39);
+    cursor: pointer;
+}
+.next{
+        
+    margin:2%;
+    color:skyblue;
+    font-size: xx-large;
+    display: inline-block;
+    width: auto;
+    border: groove rgb(105, 203, 241);
+    padding: 10px;
+    max-height:50px;
+    background-color: rgb(59, 51, 39);
+    position: relative;
+    float: right;
+    cursor: pointer;
+    
+}
+.next:hover,.previous:hover{
+    color: black;
+    border: none;
+    background:rgb(25, 185, 248);
+    box-shadow: 0 0 20px rgb(15, 186, 253);
+}
