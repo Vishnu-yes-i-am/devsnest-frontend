@@ -1,0 +1,9 @@
+.counter{
+    width:50px;
+    height: 60px;
+    border: solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size:50px;
+    cursor: pointer;
+}
